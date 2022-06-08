@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+.about1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("peakpx.jpg");
+  background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 6.5vh;
+  background: rgba(223, 4, 252, 0.384);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav .logo {
+  width: 25%;
+  text-align: center;
+  color: white;
+  float: left;
+  font-size: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+.content-section {
+  float: left;
+  width: 55%;
+}
+.image-section {
+  float: right;
+  width: 40%;
+}
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.content-section .content h3 {
+  margin-top: 20px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+.content-section .content .button {
+  margin-top: 30px;
+}
+.content-section .content .button a {
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover {
+  background-color: #a52a2a;
+  color: #fff;
+}
+.content-section .title {
+  text-align: center;
+  font-size: 19px;
+}
